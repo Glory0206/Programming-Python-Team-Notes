@@ -1,5 +1,5 @@
-n = 7
 data = [7, 5, 1, 2, 8, 13, 11]
+n = len(data)
 
 def quick_sort(data, start, end): # start와 end는 index
     if start >= end: # 부분배열의 크기가 1이라면, 함수 종료
