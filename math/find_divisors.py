@@ -1,3 +1,5 @@
+# 약수 구하기
+
 def find_divisors(n):
     divisors = []
     for i in range(1, n + 1):
